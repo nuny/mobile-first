@@ -1,0 +1,26 @@
+.container{
+	width: 98%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	background: #98d6ce;
+	height: 100px;
+}
+section,aside{
+  width: 100%;
+  margin-top: 15px;
+  height: 500px
+}
+section{background: #f0f0f0}
+aside{background: #98aed6}
+@media (min-width: 768px) {
+  .container{width:90%}
+  section{width:67%;float: left;}
+  aside{width:30%;float: right}
+}
+@media (min-width: 1024px) {
+  .container{width:80%}
+  section{width:70%}
+  aside{width:28%}
+}
